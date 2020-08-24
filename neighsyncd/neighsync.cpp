@@ -128,7 +128,7 @@ void NeighSync::onMsg(int nlmsg_type, struct nl_object *obj)
 
 void dummy()
 {
-    int *a = (int *a)malloc(100);
+    int *a = (int *a)malloc(1000);
     a++;
     free(a);
     return;
