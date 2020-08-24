@@ -124,3 +124,12 @@ void NeighSync::onMsg(int nlmsg_type, struct nl_object *obj)
         m_neighTable.set(key, fvVector);
     }
 }
+
+
+void dummy()
+{
+    int *a = (int *a)malloc(100);
+    a++;
+    free(a);
+    return;
+}
